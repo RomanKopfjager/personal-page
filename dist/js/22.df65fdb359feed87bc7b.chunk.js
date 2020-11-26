@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[22],{Chfc:function(e,n,t){"use strict";t.r(n);var p={name:"AppShop"},s=t("KHd+"),a=Object(s.a)(p,function(){var e=this.$createElement;return(this._self._c||e)("h1",[this._v("2X Shop Page")])},[],!1,null,null,null);n.default=a.exports}}]);
