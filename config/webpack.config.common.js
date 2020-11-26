@@ -1,8 +1,8 @@
-const VueLoaderPlugin      = require('vue-loader/lib/plugin');
-const HtmlPlugin           = require('html-webpack-plugin');
+const VueLoaderPlugin = require('vue-loader/lib/plugin');
+const HtmlPlugin = require('html-webpack-plugin');
 const MiniCSSExtractPlugin = require('mini-css-extract-plugin');
-const helpers              = require('./helpers');
-const isDev                = process.env.NODE_ENV === 'development';
+const helpers = require('./helpers');
+const isDev = process.env.NODE_ENV === 'development';
 
 const webpackConfig = {
   entry: {
@@ -57,14 +57,14 @@ const webpackConfig = {
       },
       {
         test: /\.scss$/,
-        use: [{
-            loader: MiniCSSExtractPlugin.loader,
+        use: [ {
+          loader: MiniCSSExtractPlugin.loader,
+        },
+          {
+            loader: 'css-loader',
           },
           {
-            loader: "css-loader",
-          },
-          {
-            loader: "sass-loader"
+            loader: 'sass-loader'
           }
         ]
       },
@@ -80,7 +80,7 @@ const webpackConfig = {
   },
   plugins: [
     new VueLoaderPlugin(),
-    new HtmlPlugin({ template: 'index.html', chunksSortMode: 'dependency' }),
+    new HtmlPlugin({ template: 'src/index.html', chunksSortMode: 'dependency' }),
     new MiniCSSExtractPlugin({
       // Options similar to the same options in webpackOptions.output
       // both options are optional
