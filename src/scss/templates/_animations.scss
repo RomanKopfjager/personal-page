@@ -1,0 +1,89 @@
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s;
+}
+
+.fade-enter, .fade-leave-to {
+  opacity: 0;
+}
+
+.modal-enter {
+  opacity: 0;
+}
+
+.modal-leave-active {
+  opacity: 0;
+}
+
+.modal-enter .modal-container,
+.modal-leave-active .modal-container {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-.5px, 0, 0);
+  }
+
+  20%, 80% {
+    transform: translate3d(.5px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(1px, 0, 0);
+  }
+}
+
+@keyframes show {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+
+  20%, 80% {
+    opacity: 1;
+    transform: translateX(-40px);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+}
+
+@keyframes rainbow {
+  0% {
+    background-position: 0% 82%
+  }
+  50% {
+    background-position: 100% 19%
+  }
+  100% {
+    background-position: 0% 82%
+  }
+}
+
+.not_ready__message {
+  position: fixed;
+  z-index: 200;
+  top: 100px;
+  opacity: 0;
+  transform: translateX(100%);
+  right: 0;
+  padding: $margin-big $margin-large $margin-big $margin-big;
+  border-radius: 10px;
+  background-color: $color-gray-dark;
+  //transition: all .5s;
+  font-weight: 100;
+  transition: all .5s ease-in-out;
+
+  &.active {
+    opacity: 1;
+    transform: translateX(-40px);
+  }
+}
