@@ -1,370 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ff8011c-58c2-429f-8f06-956abaa89fb7" name="Default Changelist" comment="Testing for vue on github">
-      <change afterPath="$PROJECT_DIR$/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-templates/simple.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/img-profile.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/portfolio-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/portfolio-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/portfolio-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/portfolio-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/preloader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/puff.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/jquery-2.1.4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sendemail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.babelrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/env/dev.env.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/env/prod.env.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/env/staging.env.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/helpers.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/webpack.config.common.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/webpack.config.dev.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/webpack.config.prod.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/18.0ba2bfdf29eec449bb88.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/18.0ba2bfdf29eec449bb88.css.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/18.1bfb9db5d7e42cdb7030.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/18.1bfb9db5d7e42cdb7030.css.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/18.df65fdb359feed87bc7b.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/18.df65fdb359feed87bc7b.css.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/18.index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/18.index.css.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/18.0ba2bfdf29eec449bb88.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/18.0ba2bfdf29eec449bb88.css.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/18.1bfb9db5d7e42cdb7030.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/18.1bfb9db5d7e42cdb7030.css.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/18.df65fdb359feed87bc7b.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/18.df65fdb359feed87bc7b.css.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/18.index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/18.index.css.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/0ba2bfdf29eec449bb88.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/1.0ba2bfdf29eec449bb88.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/1.0ba2bfdf29eec449bb88.chunk.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/1.1bfb9db5d7e42cdb7030.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/1.1bfb9db5d7e42cdb7030.chunk.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/1.df65fdb359feed87bc7b.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/1.df65fdb359feed87bc7b.chunk.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/10.0ba2bfdf29eec449bb88.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/10.0ba2bfdf29eec449bb88.chunk.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/10.1bfb9db5d7e42cdb7030.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/10.1bfb9db5d7e42cdb7030.chunk.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/10.df65fdb359feed87bc7b.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/10.df65fdb359feed87bc7b.chunk.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/11.0ba2bfdf29eec449bb88.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/11.1bfb9db5d7e42cdb7030.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/11.df65fdb359feed87bc7b.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/12.0ba2bfdf29eec449bb88.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/12.1bfb9db5d7e42cdb7030.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/12.df65fdb359feed87bc7b.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/13.0ba2bfdf29eec449bb88.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/13.0ba2bfdf29eec449bb88.chunk.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/13.1bfb9db5d7e42cdb7030.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/13.1bfb9db5d7e42cdb7030.chunk.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/13.df65fdb359feed87bc7b.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/13.df65fdb359feed87bc7b.chunk.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/14.0ba2bfdf29eec449bb88.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/14.0ba2bfdf29eec449bb88.chunk.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/14.1bfb9db5d7e42cdb7030.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/14.1bfb9db5d7e42cdb7030.chunk.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/14.df65fdb359feed87bc7b.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/14.df65fdb359feed87bc7b.chunk.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/15.0ba2bfdf29eec449bb88.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/15.1bfb9db5d7e42cdb7030.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/15.df65fdb359feed87bc7b.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/16.0ba2bfdf29eec449bb88.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/16.0ba2bfdf29eec449bb88.chunk.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/16.1bfb9db5d7e42cdb7030.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/16.1bfb9db5d7e42cdb7030.chunk.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/16.df65fdb359feed87bc7b.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/16.df65fdb359feed87bc7b.chunk.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/17.0ba2bfdf29eec449bb88.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/17.1bfb9db5d7e42cdb7030.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/17.df65fdb359feed87bc7b.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/18.0ba2bfdf29eec449bb88.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/18.1bfb9db5d7e42cdb7030.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/18.df65fdb359feed87bc7b.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/19.0ba2bfdf29eec449bb88.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/19.1bfb9db5d7e42cdb7030.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/19.df65fdb359feed87bc7b.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/1bfb9db5d7e42cdb7030.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/2.0ba2bfdf29eec449bb88.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/2.1bfb9db5d7e42cdb7030.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/2.df65fdb359feed87bc7b.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/20.0ba2bfdf29eec449bb88.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/20.1bfb9db5d7e42cdb7030.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/20.df65fdb359feed87bc7b.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/21.0ba2bfdf29eec449bb88.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/21.1bfb9db5d7e42cdb7030.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/21.df65fdb359feed87bc7b.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/22.0ba2bfdf29eec449bb88.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/22.1bfb9db5d7e42cdb7030.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/22.df65fdb359feed87bc7b.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/3.0ba2bfdf29eec449bb88.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/3.0ba2bfdf29eec449bb88.chunk.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/3.1bfb9db5d7e42cdb7030.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/3.1bfb9db5d7e42cdb7030.chunk.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/3.df65fdb359feed87bc7b.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/3.df65fdb359feed87bc7b.chunk.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/4.0ba2bfdf29eec449bb88.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/4.1bfb9db5d7e42cdb7030.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/4.df65fdb359feed87bc7b.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/5.0ba2bfdf29eec449bb88.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/5.0ba2bfdf29eec449bb88.chunk.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/5.1bfb9db5d7e42cdb7030.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/5.1bfb9db5d7e42cdb7030.chunk.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/5.df65fdb359feed87bc7b.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/5.df65fdb359feed87bc7b.chunk.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/6.0ba2bfdf29eec449bb88.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/6.1bfb9db5d7e42cdb7030.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/6.df65fdb359feed87bc7b.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/7.0ba2bfdf29eec449bb88.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/7.1bfb9db5d7e42cdb7030.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/7.df65fdb359feed87bc7b.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/8.0ba2bfdf29eec449bb88.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/8.1bfb9db5d7e42cdb7030.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/8.df65fdb359feed87bc7b.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/9.0ba2bfdf29eec449bb88.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/9.1bfb9db5d7e42cdb7030.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/9.df65fdb359feed87bc7b.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/df65fdb359feed87bc7b.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/fonts/Bahnschrift/BAHNSCHRIFT 1.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/fonts/Bahnschrift/BAHNSCHRIFT 10.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/fonts/Bahnschrift/BAHNSCHRIFT 11.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/fonts/Bahnschrift/BAHNSCHRIFT 12.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/fonts/Bahnschrift/BAHNSCHRIFT 13.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/fonts/Bahnschrift/BAHNSCHRIFT 14.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/fonts/Bahnschrift/BAHNSCHRIFT 2.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/fonts/Bahnschrift/BAHNSCHRIFT 3.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/fonts/Bahnschrift/BAHNSCHRIFT 4.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/fonts/Bahnschrift/BAHNSCHRIFT 5.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/fonts/Bahnschrift/BAHNSCHRIFT 6.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/fonts/Bahnschrift/BAHNSCHRIFT 7.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/fonts/Bahnschrift/BAHNSCHRIFT 8.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/fonts/Bahnschrift/BAHNSCHRIFT 9.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/fonts/Bahnschrift/BAHNSCHRIFT.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/fonts/Bahnschrift/bahnschrift-cufonfonts-webfont.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/fonts/Bahnschrift/example.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/fonts/Bahnschrift/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/fonts/SegoeUI/SegoeUI-Bold.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/fonts/SegoeUI/SegoeUI-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/fonts/SegoeUI/SegoeUI-Bold.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/fonts/SegoeUI/SegoeUI-BoldItalic.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/fonts/SegoeUI/SegoeUI-BoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/fonts/SegoeUI/SegoeUI-BoldItalic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/fonts/SegoeUI/SegoeUI-Italic.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/fonts/SegoeUI/SegoeUI-Italic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/fonts/SegoeUI/SegoeUI-Italic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/fonts/SegoeUI/SegoeUI-Light.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/fonts/SegoeUI/SegoeUI-Light.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/fonts/SegoeUI/SegoeUI-Light.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/fonts/SegoeUI/SegoeUI-SemiBold.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/fonts/SegoeUI/SegoeUI-SemiBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/fonts/SegoeUI/SegoeUI-SemiBold.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/fonts/SegoeUI/SegoeUI.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/fonts/SegoeUI/SegoeUI.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/fonts/SegoeUI/SegoeUI.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/fonts/SegoeUI/SegoeUI.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/fonts/SegoeUI/stylesheet.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/img/2X, Behance, icon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/img/2X, Instagram, icon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/img/2X, LinkedIn, icon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/img/2X, смена языка, icon, EN.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/img/2X, смена языка, icon, RU.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/img/arrow.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/img/design.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/img/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/img/nature.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/img/strategy.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/img/support.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/img/tech.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/0ba2bfdf29eec449bb88.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/1.0ba2bfdf29eec449bb88.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/1.0ba2bfdf29eec449bb88.chunk.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/1.1bfb9db5d7e42cdb7030.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/1.1bfb9db5d7e42cdb7030.chunk.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/1.df65fdb359feed87bc7b.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/1.df65fdb359feed87bc7b.chunk.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/10.0ba2bfdf29eec449bb88.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/10.0ba2bfdf29eec449bb88.chunk.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/10.1bfb9db5d7e42cdb7030.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/10.1bfb9db5d7e42cdb7030.chunk.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/10.df65fdb359feed87bc7b.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/10.df65fdb359feed87bc7b.chunk.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/11.0ba2bfdf29eec449bb88.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/11.1bfb9db5d7e42cdb7030.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/11.df65fdb359feed87bc7b.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/12.0ba2bfdf29eec449bb88.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/12.1bfb9db5d7e42cdb7030.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/12.df65fdb359feed87bc7b.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/13.0ba2bfdf29eec449bb88.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/13.0ba2bfdf29eec449bb88.chunk.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/13.1bfb9db5d7e42cdb7030.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/13.1bfb9db5d7e42cdb7030.chunk.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/13.df65fdb359feed87bc7b.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/13.df65fdb359feed87bc7b.chunk.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/14.0ba2bfdf29eec449bb88.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/14.0ba2bfdf29eec449bb88.chunk.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/14.1bfb9db5d7e42cdb7030.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/14.1bfb9db5d7e42cdb7030.chunk.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/14.df65fdb359feed87bc7b.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/14.df65fdb359feed87bc7b.chunk.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/15.0ba2bfdf29eec449bb88.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/15.1bfb9db5d7e42cdb7030.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/15.df65fdb359feed87bc7b.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/16.0ba2bfdf29eec449bb88.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/16.0ba2bfdf29eec449bb88.chunk.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/16.1bfb9db5d7e42cdb7030.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/16.1bfb9db5d7e42cdb7030.chunk.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/16.df65fdb359feed87bc7b.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/16.df65fdb359feed87bc7b.chunk.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/17.0ba2bfdf29eec449bb88.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/17.1bfb9db5d7e42cdb7030.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/17.df65fdb359feed87bc7b.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/18.0ba2bfdf29eec449bb88.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/18.1bfb9db5d7e42cdb7030.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/18.df65fdb359feed87bc7b.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/19.0ba2bfdf29eec449bb88.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/19.1bfb9db5d7e42cdb7030.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/19.df65fdb359feed87bc7b.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/1bfb9db5d7e42cdb7030.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/2.0ba2bfdf29eec449bb88.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/2.1bfb9db5d7e42cdb7030.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/2.df65fdb359feed87bc7b.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/20.0ba2bfdf29eec449bb88.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/20.1bfb9db5d7e42cdb7030.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/20.df65fdb359feed87bc7b.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/21.0ba2bfdf29eec449bb88.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/21.1bfb9db5d7e42cdb7030.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/21.df65fdb359feed87bc7b.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/22.0ba2bfdf29eec449bb88.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/22.1bfb9db5d7e42cdb7030.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/22.df65fdb359feed87bc7b.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/3.0ba2bfdf29eec449bb88.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/3.0ba2bfdf29eec449bb88.chunk.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/3.1bfb9db5d7e42cdb7030.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/3.1bfb9db5d7e42cdb7030.chunk.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/3.df65fdb359feed87bc7b.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/3.df65fdb359feed87bc7b.chunk.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/4.0ba2bfdf29eec449bb88.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/4.1bfb9db5d7e42cdb7030.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/4.df65fdb359feed87bc7b.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/5.0ba2bfdf29eec449bb88.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/5.0ba2bfdf29eec449bb88.chunk.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/5.1bfb9db5d7e42cdb7030.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/5.1bfb9db5d7e42cdb7030.chunk.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/5.df65fdb359feed87bc7b.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/5.df65fdb359feed87bc7b.chunk.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/6.0ba2bfdf29eec449bb88.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/6.1bfb9db5d7e42cdb7030.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/6.df65fdb359feed87bc7b.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/7.0ba2bfdf29eec449bb88.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/7.1bfb9db5d7e42cdb7030.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/7.df65fdb359feed87bc7b.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/8.0ba2bfdf29eec449bb88.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/8.1bfb9db5d7e42cdb7030.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/8.df65fdb359feed87bc7b.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/9.0ba2bfdf29eec449bb88.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/9.1bfb9db5d7e42cdb7030.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/9.df65fdb359feed87bc7b.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/df65fdb359feed87bc7b.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ContactAnimation.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LanguageSwitcher.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/icons/behance.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/icons/instagram.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/icons/lang_en.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/icons/lang_ru.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/icons/linkedin.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Bahnschrift/BAHNSCHRIFT 1.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Bahnschrift/BAHNSCHRIFT 10.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Bahnschrift/BAHNSCHRIFT 11.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Bahnschrift/BAHNSCHRIFT 12.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Bahnschrift/BAHNSCHRIFT 13.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Bahnschrift/BAHNSCHRIFT 14.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Bahnschrift/BAHNSCHRIFT 2.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Bahnschrift/BAHNSCHRIFT 3.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Bahnschrift/BAHNSCHRIFT 4.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Bahnschrift/BAHNSCHRIFT 5.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Bahnschrift/BAHNSCHRIFT 6.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Bahnschrift/BAHNSCHRIFT 7.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Bahnschrift/BAHNSCHRIFT 8.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Bahnschrift/BAHNSCHRIFT 9.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Bahnschrift/BAHNSCHRIFT.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Bahnschrift/bahnschrift-cufonfonts-webfont.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Bahnschrift/example.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Bahnschrift/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/SegoeUI/SegoeUI-Bold.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/SegoeUI/SegoeUI-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/SegoeUI/SegoeUI-Bold.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/SegoeUI/SegoeUI-BoldItalic.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/SegoeUI/SegoeUI-BoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/SegoeUI/SegoeUI-BoldItalic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/SegoeUI/SegoeUI-Italic.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/SegoeUI/SegoeUI-Italic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/SegoeUI/SegoeUI-Italic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/SegoeUI/SegoeUI-Light.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/SegoeUI/SegoeUI-Light.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/SegoeUI/SegoeUI-Light.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/SegoeUI/SegoeUI-SemiBold.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/SegoeUI/SegoeUI-SemiBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/SegoeUI/SegoeUI-SemiBold.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/SegoeUI/SegoeUI.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/SegoeUI/SegoeUI.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/SegoeUI/SegoeUI.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/SegoeUI/SegoeUI.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/SegoeUI/stylesheet.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/2X, Behance, icon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/2X, Instagram, icon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/2X, LinkedIn, icon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/2X, смена языка, icon, EN.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/2X, смена языка, icon, RU.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/We believe.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/arrow.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/design.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/nature.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/strategy.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/support.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/tech.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/plugins/i18n.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/plugins/lang/en.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/plugins/lang/ru.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/views/Contact.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/views/Home.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/includes/_fonts.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/includes/_media.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/includes/_mixins.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/includes/_reset.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/includes/_vars.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/index.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/templates/_about.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/templates/_animations.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/templates/_contacts.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/templates/_header.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/templates/_main.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" />
+    <list default="true" id="2ff8011c-58c2-429f-8f06-956abaa89fb7" name="Default Changelist" comment="New design">
+      <change beforePath="$PROJECT_DIR$/img/tinified.zip" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -436,7 +74,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606380657704</updated>
-      <workItem from="1606380658757" duration="5252000" />
+      <workItem from="1606380658757" duration="5721000" />
     </task>
     <task id="LOCAL-00001" summary=" Initial commit">
       <created>1606383145129</created>
@@ -459,7 +97,35 @@
       <option name="project" value="LOCAL" />
       <updated>1606383735804</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="New design">
+      <created>1606385951798</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1606385951798</updated>
+    </task>
+    <task id="LOCAL-00005" summary="New design">
+      <created>1606386149886</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1606386149886</updated>
+    </task>
+    <task id="LOCAL-00006" summary="New design">
+      <created>1606386373332</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1606386373332</updated>
+    </task>
+    <task id="LOCAL-00007" summary="New design">
+      <created>1606386383792</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1606386383792</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -468,7 +134,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value=" Initial commit" />
     <MESSAGE value="Testing for vue on github" />
-    <option name="LAST_COMMIT_MESSAGE" value="Testing for vue on github" />
+    <MESSAGE value="New design" />
+    <option name="LAST_COMMIT_MESSAGE" value="New design" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1506" y="175" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606381448661">
@@ -515,9 +182,9 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1459" y="165" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1606382942836" />
-    <state x="-1368" y="249" key="Vcs.Push.Dialog.v2" timestamp="1606383737512">
+    <state x="-1368" y="249" key="Vcs.Push.Dialog.v2" timestamp="1606386385501">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1368" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1606383737512" />
+    <state x="-1368" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1606386385501" />
   </component>
 </project>
